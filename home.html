@@ -2,13 +2,217 @@
 
 <html>
   <head>
-    <title>INSERT TITLE HERE!</title>
+    <title>Personas and Storyboarding</title>
     <link rel="stylesheet" href="index.css">
     <!-- TODO: add additional links here! e.g. fonts, icons, more stylesheets, etc. -->
     <meta content="width=device-width, initial-scale=1" name="viewport" />
+
   </head>
+  <h1 style="font-family:Futura; color: #C9E265"> Personas and Storyboarding
+  </h1>
+
+
 
   <body>
     <!-- TODO: put your HTML code here! -->
+    <style>
+        .flex-container {
+            position: relative;
+            display: flex;
+            /* flex-flow: row wrap; */
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            /* align-content: space-around; */
+
+        }
+        @media (max-width: 800px) {
+            .flex-container {
+                flex-direction: column;
+            }
+        }
+        .flex-container2 {
+            position: relative;
+            display: flex;
+            flex-direction: row ;
+            /* border: 1px solid black; */
+            /* flex-wrap: wrap; */
+            /* justify-content: space-around; */
+            /* align-items: center; */
+
+        }
+        @media (max-width: 900px) {
+            .flex-container2 {
+                flex-direction: column;
+            }
+        }
+        /* .grid-item2 {
+            border-right: 1px solid black;
+            border-left: 1px solid black
+            border-top: 1px solid black;
+        } */
+
+        /* .first:hover {
+            -webkit-filter: grayscale(100%) blur(2px);
+            filter: grayscale(100%) blur(2px);
+            transition: .2s ease-in-out;
+        }
+        .second:hover {
+            -webkit-filter: grayscale(100%) blur(2px);
+            filter: grayscale(100%) blur(2px);
+            transition: .4s ease-in-out;
+        }
+        .third:hover {
+            -webkit-filter: grayscale(100%) blur(2px);
+            filter: grayscale(100%) blur(2px);
+            transition: .4s ease-in-out;
+        }
+        .fourth:hover {
+            -webkit-filter: grayscale(100%) blur(2px);
+            filter: grayscale(100%) blur(2px);
+            transition: .4s ease-in-out;
+        } */
+
+    </style>
+    <h3 style="font-family:Helvetica;color:Grey">
+        <i>Are gas pumps intuitive and designed for everyone to use?</i>
+    </h3>
+    <h2 style="font-family:Helvetica;">
+    First, let&#146;s take a look at a typical modern gas pump:
+    </h2>
+    <div class="flex-container">
+        <div class="grid-item">
+            <!-- <div class="GasPump"> -->
+                <img src="GasPump.png" alt="Gas pump machine diagram" style="width:60%;">
+            <!-- </div> -->
+        </div>
+        <div class="grid-item">
+            <!-- <div class="GasNozzle"> -->
+                <img src="GasNozzle.png" alt="Gas nozzle diagram" style="width:60%;">
+            <!-- </div> -->
+        </div>
+    </div>
+    <h2 style="font-family:Helvetica;">
+    The gas pump is used to refuel a car. It is a large, interactive machine, with a gas nozzle (the part that is inserted into the car)
+    and a gas hose which is used to pump fuel from the underground gasoline storage tanks. When the &apos;operating lever&apos; is held back or
+    clamped, it releases gasoline.
+    </h2>
+    <h3 style="font-family:Helvetica;color:Grey">
+    <i>Interviews</i>
+    </h3>
+    <h2 style="font-family:Helvetica;">
+    Next, I interviewed three users, two of whom had plenty of previous experience pumping their own gas, and one who did not.
+    <br>
+    <br>
+    Here were the questions I asked:
+    </h2>
+    <div class="questions">
+        <ol style="font-family:Helvetica;">
+            <i><li>How frequently do you use the gas pump? (Weekly? Monthly? Seasonally?) </li>
+            <li>When was the first time you pumped your own gas?</li>
+            <li>Did you need someone to teach you or was it intuitive?</li>
+            <li>When you pump gas do you fill your entire tank?</li>
+            <li>Have any aspects of the gas pump been challenging for you to use?</li>
+            <li>Have you been to a gas station whose pump design was unique? Were the features easier to use?</li></i>
+        </ol>
+    </div>
+    <div class="flex-container">
+        <div class="grid-item">
+            <!-- <div class="GasPump"> -->
+                <img src="user1.jpg" alt="user1 description" style="width:100%;">
+            <!-- </div> -->
+        </div>
+        <div class="grid-item">
+            <!-- <div class="GasNozzle"> -->
+                <img src="user2.jpg" alt="user2 description" style="width:100%;">
+            <!-- </div> -->
+        </div>
+        <div class="grid-item">
+            <!-- <div class="GasNozzle"> -->
+                <img src="user3.jpg" alt="user3 description" style="width:100%;">
+            <!-- </div> -->
+        </div>
+    </div>
+    <h3 style="font-family:Helvetica;color:Grey">
+    <i>Personas</i>
+    </h3>
+    <h2 style="font-family:Helvetica;">
+        From my interviews, I developed two personas
+    </h2>
+    <div class="flex-container">
+        <div class="grid-item">
+                <img src="CollegeCasey.png" alt="Empathy map of 'College Casey'" style="width:100%;">
+        </div>
+        <div class="grid-item">
+                <img src="SeniorSylvie.png" alt="Empathy map of 'Senior Sylvie'" style="width:100%;">
+        </div>
+    </div>
+    <h2 style="font-family:Helvetica;">
+        College Casey represents the new driver.
+        She recently learned how to use the gas pump machine, but rarely does so alone.
+        She has a tight budget and is sometimes afraid to ask for help.
+        She is unaware of the differences in the types of gas.
+        She is often unsure if she securely placed the nozzle into the car, and does not know how to
+        identify when her car tank has been filled all the way.
+        <br>
+        <br>
+        Senior Sylvie represents the experienced driver. She has frequently pumped gas but still faces
+        difficulties with some of the bulky physical components of the gas pump and nozzle.
+        She is patient and takes her time. She finds the weight and size of the gas nozzle to be
+        straining. She dislikes when gas pumps lack a &apos;hold open latch&apos; as she does not like
+        to have to hold the &apos;operating lever&apos; while she fills her entire tank. She sometimes has
+        difficulty seeing the instruction screen when it is poorly lit.
+
+    </h2>
+    <h3 style="font-family:Helvetica;color:Grey">
+    <i>Storyboarding</i>
+    </h3>
+    <h2 style="font-family:Helvetica;">
+        College Casey's gas pump experience:
+    </h2>
+    <div class="flex-container2">
+        <div class="grid-item2">
+                <img src="story1.png" alt="Storyboard image 1" style="width:100%;">
+        </div>
+        <div class="grid-item2">
+                <img src="story2.png" alt="Storyboard image 2" style="width:100%;">
+        </div>
+        <div class="grid-item2">
+                <img src="story3.png" alt="Storyboard image 3" style="width:100%;">
+        </div>
+        <div class="grid-item">
+                <img src="story4.png" alt="Storyboard image 4" style="width:100%;">
+        </div>
+    </div>
+    <div class="flex-container2">
+        <div class="grid-item2">
+                <img src="story5.png" alt="Storyboard image 5" style="width:100%;">
+        </div>
+        <div class="grid-item2">
+                <img src="story6.png" alt="Storyboard image 6" style="width:100%;">
+        </div>
+        <div class="grid-item2">
+                <img src="story7.png" alt="Storyboard image 7" style="width:100%;">
+        </div>
+        <div class="grid-item2">
+                <img src="story8.png" alt="Storyboard image 8" style="width:100%;">
+        </div>
+    </div>
+    <h3 style="font-family:Helvetica;color:Grey">
+    <i>Summary</i>
+    </h3>
+    <h2 style="font-family:Helvetica;">
+        From interviewing and creating personas, I was better able to understand the type of
+        users who use the gas pump, ranging from novices to frequent users, from young to old.
+        <br>
+        <br>
+        From understanding users&apos; mindsets, many key design flaws of the gas pump and nozzle were revealed:
+        from the weight and size of the gas nozzle, to the illumination of the instruction screen, to the lack of indication
+        when the nozzle is securely placed in the car.
+        These factors could be used to redesign the gas pump to make it more intuitive and accessible.
+        
+    </h2>
+
   </body>
 </html>

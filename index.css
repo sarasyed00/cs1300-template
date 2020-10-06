@@ -1,1 +1,23 @@
 /* Put your style information here! */
+h1 {
+    /* text-align: center; */
+
+    font-size: 3em;
+    margin: 0px;
+    /* background-color: #FDE37A */
+}
+h2 {
+    font-size: 1em;
+}
+h3 {
+    font-size: 1.5em;
+}
+ol {
+    font-size: 1em;
+}
+
+body {
+  background-color: #;
+  margin: 50px;
+  /* text-align: center */
+}
